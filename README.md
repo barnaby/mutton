@@ -44,7 +44,7 @@ $ brew install mutton
 # Deploy a large language model
 $ mutton deploy
 Which cloud provider [AWS, Azure, Runpod]: AWS
-oAuth with Amazon...
+oAuthing with Amazon... The browser will redirect here once done
 Select Model: Deepseek-R1
 # ...
 ```
@@ -54,7 +54,7 @@ Select Model: Deepseek-R1
 $ mutton chat 846590
 Chatting with Deepseek-R1
 > write a short story
-once up a time in ...
+once upon a time in ...
 ```
 
 ### Manage Your Deployments

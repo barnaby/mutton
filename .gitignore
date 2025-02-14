@@ -1,0 +1,11 @@
+# Binaries
+mutton
+*.exe
+*.out
+
+# Go modules
+go.sum
+
+# Editor files
+.DS_Store
+*.swp
