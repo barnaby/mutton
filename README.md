@@ -1,33 +1,33 @@
-# Mutton
+# 🐑 Mutton
 
-**mutton** is like *Ollama for the cloud:* a simple command-line tool that lets you deploy and manage open-source large language models (LLMs) across your own cloud infrastructure—without the hassle. Currently supporting **AWS**, **Azure**, and **Runpod**, with more on the way.
+**Mutton** is like *Ollama for the cloud:* a simple command-line tool that lets you deploy and manage open-source large language models (LLMs) across your own cloud infrastructure—without the hassle. Currently supporting **AWS**, **Azure**, and **Runpod**, with more on the way.
 
 ## Why mutton?
 
-- **No expensive hardware needed**  
+- 💰 **No expensive hardware needed**  
   Run the latest open-source models at full speed using cloud GPU instances.  
 
-- **Deploy in minutes**  
+- 🚀 **Deploy in minutes**  
   Spend more time building and less time wrestling with DevOps.  
 
-- **Total control**  
+- 🛡️ **Total control**  
   Keep your data where you want it and decide who can access it.  
 
-- **Flexible & portable**  
+- 🏗️ **Flexible & portable**  
   Avoid vendor lock-in and switch cloud providers easily.  
 
-- **Hassle-free management**  
+- ⚙️ **Hassle-free management**
   A simple CLI for deploying, starting, stopping, and tearing down models.  
 
-- **Terraform under the hood**  
+- 🏗️ **Terraform under the hood**  
   Reliable infrastructure-as-code with minimal setup.
 
 ## Who’s it for?
 
-- **Tinkerers & Indie Developers**  
+- 🧑‍💻 **Tinkerers & Indie Developers**  
   An easy way to experiment with open-source LLMs.
 
-- **Companies**  
+- 🏢 **Companies**  
   Host models on existing cloud infrastructure or maintain data privacy and compliance.
 
 ## How it Works
