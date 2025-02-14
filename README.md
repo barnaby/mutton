@@ -25,7 +25,7 @@
 ## Who’s it for?
 
 - 🧑‍💻 **Tinkerers & Indie Developers**  
-  An easy way to experiment with open-source LLMs.
+  An easy way to experiment with and deploy open-source LLMs.
 
 - 🏢 **Companies**  
   Host models on existing cloud infrastructure or maintain data privacy and compliance.
