@@ -2,7 +2,7 @@
 
 **Mutton** is like *Ollama for the cloud:* a simple command-line tool that lets you deploy and manage open-source large language models (LLMs) across your own cloud infrastructure—without the hassle. Currently supporting **AWS**, **Azure**, and **Runpod**, with more on the way.
 
-## Why mutton?
+## Why Mutton?
 
 - 💰 **No expensive hardware needed**  
   Run the latest open-source models at full speed using cloud GPU instances.  
@@ -19,7 +19,7 @@
 - ⚙️ **Hassle-free management**
   A simple CLI for deploying, starting, stopping, and tearing down models.  
 
-- 🏗️ **Terraform under the hood**  
+- 🔧 **Terraform under the hood**  
   Reliable infrastructure-as-code with minimal setup.
 
 ## Who’s it for?
@@ -44,22 +44,25 @@ $ brew install mutton
 # Deploy a large language model
 $ mutton deploy
 Which cloud provider [AWS, Azure, Runpod]: AWS
-Enter AWS user: mutton
-Enter AWS password: ****
-Select Model: Deepseek R1
-
-# Wait while your model spins up...
-# You can now chat with your model at:
+oAuth with Amazon...
+Select Model: Deepseek-R1
 # ...
 ```
 
+### Chat
+```bash
+$ mutton chat 846590
+Chatting with Deepseek-R1
+> write a short story
+once up a time in ...
+```
 
 ### Manage Your Deployments
 
 ```bash 
-$ mutton deployments
-Model Id    Model Name     Cloud   GPU   Uptime
-846590      Deepseek-R1    AWS     A100  30m
+$ mutton ls
+Model Id    Model Name     Cloud    GPU     Uptime
+846590      Deepseek-R1    AWS      A100    30m
 
 # Stop a deployment
 mutton stop 846590
@@ -68,5 +71,5 @@ mutton stop 846590
 mutton start 846590
 
 # Completely remove a model and its data
-mutton teardown 846590
+mutton kill 846590
 ```
