@@ -16,7 +16,7 @@
 - 🏗️ **Flexible & portable**  
   Avoid vendor lock-in and switch cloud providers easily.  
 
-- ⚙️ **Hassle-free management**
+- ⚙️ **Hassle-free management**  
   A simple CLI for deploying, starting, stopping, and tearing down models.  
 
 - 🏗️ **Terraform under the hood**  
