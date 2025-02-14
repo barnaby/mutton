@@ -16,7 +16,7 @@
 - 🏗️ **Flexible & portable**  
   Avoid vendor lock-in and switch cloud providers easily.  
 
-- ⚙️ **Hassle-free management**
+- ⚙️ **Hassle-free management**  
   A simple CLI for deploying, starting, stopping, and tearing down models.  
 
 - 🔧 **Terraform under the hood**  
@@ -25,7 +25,7 @@
 ## Who’s it for?
 
 - 🧑‍💻 **Tinkerers & Indie Developers**  
-  An easy way to experiment with open-source LLMs.
+  An easy way to experiment with and deploy open-source LLMs.
 
 - 🏢 **Companies**  
   Host models on existing cloud infrastructure or maintain data privacy and compliance.
